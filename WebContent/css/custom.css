@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo");
+@import url("https://fonts.googleapis.com/css?family=Jua|Nanum+Gothic|Nanum+Myeongjo");
+@import url("https://fonts.googleapis.com/earlyaccess/hanna.css");
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Nanum Myeongjo', sans-serif;
+	font-family: 'Jua', sans-serif;
+}
+h1 {
+	font-family: 'Hanna';
+}
+#header01 {
+	color: black;
+	font-family: 'Hanna';
+	font-size: 30px;
+	font-weight: bold;
+
+	background-image: url('../images/mountain.png');
+	background-size: 100% 120%;
+}
+
+#header02 {
+	background-image: url('../images/mountain.png');
+	background-size: 100% 120%;
+}
