@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url();
+
+body {
+	background-color: #343d46;
+	font-size: 30px;
+}
+div#title {
+	background-color: #c0c0c0;
+	border: 2px solid #aaaaff;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #343434;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 50px auto;
+	box-shadow: 10px 10px 10px #aaaaaa;
+	text-align: center;
+}
+img#damuni {
+	width: 500px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
