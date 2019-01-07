@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Staatliches);
+
+* {
+	font-family: Staatliches;
+	font-size: 9pt;
+}
+.subject-horizon {
+	margin: 1px auto;
+	border-top: 1px solid #999999;
+}
