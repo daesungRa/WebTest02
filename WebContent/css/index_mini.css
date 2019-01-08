@@ -3,83 +3,118 @@
 * {
 	font-family: Staatliches;
 }
+
+/*
+* header
+*/
 #header {
-	width: 1000px;
-	height: 160px;
+	width: 100%;
+	height: 100px;
 	padding: 10px 0 10px 10px;
 	box-sizing: border-box;
 	margin: 0 auto;
 	background-color: #343d46;
 	position: relative;
+	/* border: 1px solid black; */
 }
 #header h1 {
 	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
 	font-size: 56pt;
 	color: #c0c0c0;
+	/* border: 1px solid red; */
 }
-#header #menu {
-	position: absolute;
-	right: 8px;
-	bottom: -4px;
+
+/*
+* menu bar
+*/
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: #343d46;
+	position: relative;
+	text-align: center;
+	/* border: 1px solid red; */
+}
+nav #menu {
+	display: inline-block;
+	width: 450px;
 	overflow: hidden;
-	font-size: 11pt;
+	font-size: 16pt;
 	color: #343434;
+	/* border: 1px solid red; */
 }
-#header #menu li {
+nav #menu li {
 	list-style: none;
 	float: left;
-	padding: 15px;
+	padding: 5px;
 }
-#header #menu li:nth-child(2n):hover {
+nav #menu li:nth-child(2n):hover {
 	background-color: #000000;
 	color: #ffffff;
 	cursor: pointer;
 }
-#header #menu li:nth-child(2n+1):hover {
+nav #menu li:nth-child(2n+1):hover {
 	background-color: #aaaaaa;
 	color: #000000;
 	cursor: pointer;	
 }
-#header #menu li:first-child {
+nav #menu li:first-child {
 	border-radius: 10px 0 0 10px;
 }
-#header #menu li:last-child {
+nav #menu li:last-child {
 	border-radius: 0 10px 10px 0;
 }
-#header #menu li:nth-child(2n) {
+nav #menu li:nth-child(2n) {
 	background-color: #787856;
 }
-#header #menu li:nth-child(2n+1) {
+nav #menu li:nth-child(2n+1) {
 	background-color: #9a9e78;
 }
+
+/*
+* article
+*/
 #wrap {
-	width: 1000px;
+	position: relative;
+	width: 100%;
 	height: 300px;
 	padding: 0;
 	box-sizing: border-box;
-	margin: 10px auto;
 	background-color: #565e46;
 	color: #343434;
 	overflow: hidden;
+	border: 1px solid black;
 }
 #wrap #aside {
-	width: 220px;
-	float: left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
 	background-color: #9a9e78;
 }
 #wrap #content {
-	width: 780px;
-	float: left;
+	top: 60px;
+	width: 100%;
+	text-align: center;
 	background-color: #787856;
 }
+
+/*
+* footer
+*/
 #footer {
-	width: 1000px;
-	height: 120px;
+	width: 100%;
+	height: 110px;
 	padding: 10px 0 10px 20px;
 	box-sizing: border-box;
-	margin: 0 auto;
+	margin: 10px auto;
 	background-image: url('../images/camel.png');
 	background-size: contain;
 	color: #efefef;
 	font-weight: bold;
+	border: 1px solid black;
 }
