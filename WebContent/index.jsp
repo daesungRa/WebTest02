@@ -10,7 +10,19 @@
 <body>
 
 	<header id='header'>
-		<h1>My Home Page</h1>
+		<div>
+			<h1>My Home Page</h1>
+		</div>
+		<ul>
+			<li>HTML</li>
+			<li>CSS3</li>
+			<li>JS</li>
+			<li>Ajax</li>
+			<li>MyBatis</li>
+			<li>jQuery</li>
+			<li>JSP</li>
+			<li>Spring</li>
+		</ul>
 	</header>
 	<section id='wrap'>
 		<aside id='aside'>

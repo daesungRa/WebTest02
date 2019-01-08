@@ -5,13 +5,34 @@
 }
 #header {
 	width: 1000px;
-	height: 120px;
+	height: 240px;
 	padding: 10px 0 10px 10px;
 	box-sizing: border-box;
 	font-size: 24pt;
 	margin: 0 auto;
 	background-color: #343d46;
 	color: #c0c0c0;
+}
+#header ul {
+	overflow: hidden;
+	font-size: 9pt;
+}
+#header ul li {
+	list-style: none;
+	float: left;
+	padding: 15px;
+}
+#header ul li:first-child {
+	border-radius: 10px 0 0 10px;
+}
+#header ul li:last-child {
+	border-radius: 0 10px 10px 0;
+}
+#header ul li:nth-child(2n) {
+	background-color: #ff0000;
+}
+#header ul li:nth-child(2n+1) {
+	background-color: #00ff00;
 }
 #wrap {
 	width: 1000px;
