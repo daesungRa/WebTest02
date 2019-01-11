@@ -4,18 +4,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta http-equiv='Cache-Control' content='no-cache' />
+<meta http-equiv='Pragma' content='no-cache' />
+<meta http-equiv='Expires' content='1' />
 <title>회원정보 수정</title>
 <link rel='stylesheet' href='../styleTest/member.css' />
+<script src='../js/member.js'></script>
 </head>
 <body>
 
 	<div id='modify'>
 		<h1 id='title'>회원정보 수정</h1>
-		<form name='member' method='post' action='member_result.jsp'>
+		<form name='member' method='post' action='modify_result.jsp'>
 			<label>아이디</label>
 			<input type='text' name='id' value='hong' /><br/>
 			<label>이 름</label>
-			<input type='text' name='name' value='gildong' /><br/>
+			<input type='text' name='irum' value='gildong' /><br/>
 			<label>비밀번호</label>
 			<input type="password" name='pwd' value='1111' /><br/>
 			<label>이메일</label>
@@ -23,7 +27,7 @@
 			<label>연락처</label>
 			<input type='text' name='phone' value='010-1111-2222' /><br/>
 			<label>등록일</label>
-			<input type="date" name='date' /><br/>
+			<input type="date" name='rdate' /><br/>
 			<label>우편번호</label>
 			<input type='text' name='postal' value='12-123' /><br/>
 			<label>주 소</label>
@@ -42,8 +46,13 @@
 			
 			<input type='submit' value='수 정' />
 			<input type='button' value='취 소' />
+		<img id='image' name='image' src='https://via.placeholder.com/150x200' width='150px' height='200px' />
 		</form>
 	</div>
-
+	
+	<script>
+		mainInsert();
+	</script>
+	
 </body>
 </html>
